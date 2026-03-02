@@ -66,5 +66,5 @@ else:
     print(df.to_string(index=False))
 
     # Сохраняем в CSV
-    df.to_csv("verification_results.csv", index=False)
+    df.to_csv("table.csv", index=False)
     print("\nРезультаты сохранены в verification_results.csv")
